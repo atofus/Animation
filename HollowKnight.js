@@ -2,11 +2,11 @@ class HollowKnight { //every entity should have update and draw!
     constructor(game) { //game will be the game engine!
         this.game = game;
         //spreadsheet, where to sta
-        this.animator = new Animator(ASSET_MANAGER.getAsset("./HollowKnight.png"), 2, 0, 128, 120, 8, 0.12);
+        this.animator = new Animator(ASSET_MANAGER.getAsset("./HollowKnightSpriteSheet.png"), 0, 0, 128, 128, 8, 0.12);
 
         
         this.x = 0;
-        this.y = 630;
+        this.y = 400;
         this.speed = 220;
     };
 
